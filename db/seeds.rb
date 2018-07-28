@@ -16,12 +16,12 @@ list_base.each do |n, c|
 end
 
 list_inventory = [
-  ["SC","Sua chua","thùng"],
-  ["NS","Nuoc suoi","lốc"],
-  ["TN","Thuoc ngua","cây"],
-  ["TM","Thuoc meo","cây"],
-  ["TL","Thuoc mal","cây"],
-  ["BH","Bo huc","thùng"],
+  ["SC","Sữa chua","thùng"],
+  ["NS","Nước suối","lốc"],
+  ["TN","Thuốc ngựa","cây"],
+  ["TM","Thuốc mèo","cây"],
+  ["TL","Thuốc mal","cây"],
+  ["BH","Bò húc","thùng"],
   ["DH","Dunhill","cây"]
 ]
 existing_inventory = Inventory.pluck :sku

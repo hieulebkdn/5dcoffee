@@ -1,3 +1,4 @@
+<%= stylesheet_link_tag 'sidebar' %>
 <div class="container">
   <div class="row">
     <%= render "layouts/sidebar" %>
@@ -7,15 +8,15 @@
           <table class="table table-responsive table-hover">
             <thead>
               <tr class="info">
-                <th>CS</th>
-                <th>Tên mặt hàng</th>
-                <th>Số lượng</th>
-                <th>Đơn vị</th>
-                <th>Thay đổi</th>
+                <th class="text-center">CS</th>
+                <th class="text-center">Tên mặt hàng</th>
+                <th class="text-center">Số lượng</th>
+                <th class="text-center">Đơn vị</th>
+                <th class="text-center">Thay đổi</th>
               </tr>
             </thead>
             <tbody>
-              <%= render @inventories %>
+              <%= render @links %>
             </tbody>
           </table>
         </div>

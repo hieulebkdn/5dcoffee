@@ -1,11 +1,12 @@
 @media screen and (max-width: 1024px){
   body {
-    padding-top: 86px;
+    padding-top: 72px;
   }
 }
 
-th {
+text-center {
   text-align: center;
+  vertical-align: middle;
 }
 
 .shop-image {
@@ -14,11 +15,6 @@ th {
   max-width: 100% !important;
 }
 
-/*css for image gallery*/
-@import url(https://fonts.googleapis.com/css?family=Quicksand:400,300);
-body{
-    font-family: 'Quicksand', sans-serif;
-}
 .gal-container{
   padding: 12px;
 }
@@ -149,9 +145,6 @@ i.red{
 .gal-container{
     padding-top :75px;
     padding-bottom:75px;
-}
-footer{
-    font-family: 'Quicksand', sans-serif;
 }
 footer a,footer a:hover{
     color: #88C425;

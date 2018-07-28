@@ -1,0 +1,1 @@
+$(function(){var s=$("#navigation"),a=s.offset();$(window).scroll(function(){$(this).scrollTop()>a.top+s.height()&&s.hasClass("default")?s.fadeOut("fast",function(){$(this).removeClass("default").addClass("fixed").fadeIn("slow")}):$(this).scrollTop()<=a.top&&s.hasClass("fixed")&&s.fadeOut("fast",function(){$(this).removeClass("fixed").addClass("default").fadeIn("slow")})})});

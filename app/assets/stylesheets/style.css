@@ -6,8 +6,6 @@
  */
 
 
-/* ==== Google font ==== */
-@import url('http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic|Montserrat:700|Merriweather:400italic');
 /* === custom icon === */
 @import "custom-fonts.css";
 /* ==== overwrite bootstrap standard ==== */
@@ -35,11 +33,9 @@ body {
   line-height: 1.6em;
   font-weight: 300;
   text-shadow: none;
-  font-family: 'Lato', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
   line-height:1.1em;
   color: #3a3a3a;
   font-weight:300;
@@ -176,7 +172,6 @@ section.dark .heading h3 {
 }
 
 .sub-heading p {
-  font-family: 'Lato', sans-serif;
   font-size: 20px;
   line-height:1.6em;
   color: #3a3a3a;
@@ -250,7 +245,6 @@ header{
 .navbar .nav > li > a,
 .navbar .nav > li > a:visited {
     padding: 28px 13px 27px;
-    font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
@@ -794,7 +788,6 @@ ul.the-icons {
 #contact-form input[type=text],#contact-form input[type=email], .contactForm textarea {
   width: 100%;
   background: rgba(227, 231, 228, 1);
-  font-family: 'Lato', sans-serif;
   border: 0;
   font-size:14px;
   text-align: left;
@@ -863,7 +856,6 @@ div.cform-response-output {
   width: 100% !important;
   left: 0 !important;
   padding: 0.5em !important;
-  font-family: 'Lato', sans-serif;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;

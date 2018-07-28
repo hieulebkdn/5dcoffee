@@ -1,5 +1,5 @@
 class InventoriesController < ApplicationController
   def index
-    @inventories = Inventory.all
+    @links = Link.all
   end
 end
