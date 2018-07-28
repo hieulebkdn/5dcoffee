@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="row">
+    <%= render "layouts/sidebar" %>
+    <div class="col-sm-9 col-md-9">
+      <div class="well">
+        <div class="row">
+          <table class="table table-responsive table-hover">
+            <thead>
+              <tr class="info">
+                <th>CS</th>
+                <th>Tên mặt hàng</th>
+                <th>Số lượng</th>
+                <th>Đơn vị</th>
+                <th>Thay đổi</th>
+              </tr>
+            </thead>
+            <tbody>
+              <%= render @inventories %>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+

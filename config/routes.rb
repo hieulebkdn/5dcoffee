@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
-  root "page#index"
-  get "page/home"
-  get "page/index"
-  get "page/manage"
+  root "pages#index"
+  get "pages/home"
+  get "pages/index"
+  get "pages/manage"
+  resources :inventories, only: :index
 end
